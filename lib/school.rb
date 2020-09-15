@@ -1,3 +1,9 @@
 # code here!
-class School=(name, age)
+class School
+  def initialize(name)
+    @name = name
+  end
+  
+  def name=(name)
+    @name = name
 end
